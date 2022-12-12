@@ -1,5 +1,5 @@
 server:
-  port: 8795
+  port: 8796
 spring:
   application:
     name: product-service
@@ -23,5 +23,5 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://localhost:8765/eureka}
       fetchRegistry: false

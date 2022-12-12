@@ -27,8 +27,5 @@ public class ProductController {
         return mapper.apply(productService.findById(id).get());
     }
 
-    @GetMapping("/pr")
-    public String findById() {
-        return "Slow Data";
-    }
+
 }
